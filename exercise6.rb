@@ -8,7 +8,7 @@ def list(a)
 	end
 end
 
-list(grocery_list)
+list(grocery_list.sort)
 
 puts grocery_list.length
 
