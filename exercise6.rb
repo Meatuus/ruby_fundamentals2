@@ -8,8 +8,6 @@ def list(a)
 	end
 end
 
-list(grocery_list.sort)
-
 puts grocery_list.length
 
 if grocery_list.include?("bananas")
@@ -19,3 +17,9 @@ else
 end
 
 puts grocery_list[1]
+
+grocery_list.delete("salmon")
+
+
+
+list(grocery_list.sort)
